@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.card--image {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.location-related {
+  display: flex;
+}
+
+.card--googleMapsUrl {
+  color: grey;
+}
